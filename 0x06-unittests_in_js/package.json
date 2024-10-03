@@ -1,0 +1,21 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "learning the basics of unittests in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --require babel-register --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "alx-backend-javascript"
+  },
+  "keywords": [
+    "unittest"
+  ],
+  "author": "Kdamzy",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.7.3"
+  }
+}
